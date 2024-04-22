@@ -15,9 +15,9 @@ author: Wei Ming
 
 navbar-links:
   About Me: "aboutme"
-  Projects:
-    - Cuisine Prediction: "https://www.uplevel.work/blog/feature-predicting-a-cuisine-based-only-on-its-ingredients-using-machine-learning"
-    - TripAdvisor Restaurant Rating Prediction: "https://www.uplevel.work/blog/feature-predicting-restaurant-ratings-tripadvisor-customer-review-machine-learning"
+  # Projects:
+  #   - Cuisine Prediction: "https://www.uplevel.work/blog/feature-predicting-a-cuisine-based-only-on-its-ingredients-using-machine-learning"
+  #   - TripAdvisor Restaurant Rating Prediction: "https://www.uplevel.work/blog/feature-predicting-restaurant-ratings-tripadvisor-customer-review-machine-learning"
 
   # Resources:
     # - Beautiful Jekyll: "https://beautifuljekyll.com"
