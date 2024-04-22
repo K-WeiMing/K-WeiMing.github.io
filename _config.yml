@@ -14,14 +14,15 @@ author: Wei Ming
 # --- List of links in the navigation bar --- #
 
 navbar-links:
+  Buy Me A Coffee: "https://buymeacoffee.com/kweiming"
   About Me: "aboutme"
   # Projects:
   #   - Cuisine Prediction: "https://www.uplevel.work/blog/feature-predicting-a-cuisine-based-only-on-its-ingredients-using-machine-learning"
   #   - TripAdvisor Restaurant Rating Prediction: "https://www.uplevel.work/blog/feature-predicting-restaurant-ratings-tripadvisor-customer-review-machine-learning"
 
   # Resources:
-    # - Beautiful Jekyll: "https://beautifuljekyll.com"
-    # - Learn markdown: "https://www.markdowntutorial.com/"
+  # - Beautiful Jekyll: "https://beautifuljekyll.com"
+  # - Learn markdown: "https://www.markdowntutorial.com/"
   # Author's home: "https://deanattali.com"
 
 # --- Logo --- #
@@ -37,20 +38,19 @@ round-avatar: true
 # then specify the following parameter
 #title-img: /path/to/image
 
-
 # --- Footer social media links --- #
 
 # Select the social network links that you want to show in the footer.
 # Uncomment the links you want to show and add your information to each one.
 social-network-links:
   email: "weiming.kng@gmail.com"
-#  facebook: deanattali
+  #  facebook: deanattali
   github: K-WeiMing
-#  twitter: daattali
-#  patreon: DeanAttali
-#  youtube: c/daattali
-#  medium: yourname
-#  reddit: yourname
+  #  twitter: daattali
+  #  patreon: DeanAttali
+  #  youtube: c/daattali
+  #  medium: yourname
+  #  reddit: yourname
   linkedin: kng-wei-ming
 #  xing: yourname
 #  stackoverflow: "3943160/daattali"
@@ -66,7 +66,7 @@ social-network-links:
 #  mastodon: instance.url/@username
 #  ORCID: your ORCID ID
 #  google-scholar: your google scholar
-#  discord: "invite_code" or "users/userid" or "invite/invite_code" 
+#  discord: "invite_code" or "users/userid" or "invite/invite_code"
 #  kaggle: yourname
 #  hackerrank: yourname
 #  gitlab: yourname
@@ -214,16 +214,14 @@ kramdown:
 
 # Default YAML values (more information on Jekyll's site)
 defaults:
-  -
-    scope:
+  - scope:
       path: ""
       type: "posts"
     values:
       layout: "post"
-      comments: true  # add comments to all blog posts
+      comments: true # add comments to all blog posts
       social-share: true # add social media sharing buttons to all blog posts
-  -
-    scope:
+  - scope:
       path: "" # any file that's not a post will be a "page" layout by default
     values:
       layout: "page"
@@ -244,6 +242,5 @@ plugins:
   - jekyll-sitemap
 
 future: false
-
 # Beautiful Jekyll / Dean Attali
 # 2fc73a3a967e97599c9763d05e564189
